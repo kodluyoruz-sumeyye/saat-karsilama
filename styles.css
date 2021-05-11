@@ -1,0 +1,38 @@
+html, body{
+    padding: 0;
+    margin:0;
+    font-family: 'Gochi Hand', cursive;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #30363d;
+}
+*{
+    text-decoration: none;
+    font-family: 'Gochi Hand', cursive;
+
+}
+.container{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 40px;
+}
+.main-heading{
+    font-size: 50px;
+}
+.sub-heading{
+    font-size: 35px;
+}
+.gradient-text{
+    background: -webkit-linear-gradient(#f27a54, #a154f2);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.date-margin{
+    margin-bottom: -5px;
+}
+.clock-margin{
+    margin-bottom: -15px;
+}
